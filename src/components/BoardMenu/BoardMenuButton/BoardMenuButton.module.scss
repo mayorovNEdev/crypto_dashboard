@@ -1,0 +1,11 @@
+.root {
+  height: 80px;
+  padding-left: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .icon {
+    padding-right: 26px;
+  }
+}
