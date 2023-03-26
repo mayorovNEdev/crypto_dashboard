@@ -1,11 +1,39 @@
+@import '../../../scss/variables';
+
 .root {
-  height: 80px;
+  margin: 10px 0;
+  height: 50px;
   padding-left: 38px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 
-  .icon {
-    padding-right: 26px;
+  color: $text-deactive;
+
+  .labelBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    svg {
+      padding-right: 26px;
+      width: 20px;
+      stroke: $text-deactive;
+    }
+  }
+
+  .activatedRectangle {
+    width: 3px;
+    height: 18px;
+    background: $active;
+    border-radius: 1px 0px 0px 1px;
+  }
+
+  &:hover {
+    color: $text-light;
+    svg {
+      stroke: $text-light;
+    }
   }
 }

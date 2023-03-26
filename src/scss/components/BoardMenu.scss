@@ -1,0 +1,16 @@
+@import '../variables';
+
+.activated-menu-item {
+  color: $text-light;
+  svg {
+    stroke: $text-light !important;
+  }
+}
+
+.small-size-board-panel {
+  width: 96px;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

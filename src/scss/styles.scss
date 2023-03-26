@@ -1,9 +1,15 @@
 @import './variables';
 
+@import './components/BoardMenu.scss';
+
 body {
   margin: 0;
   height: 100vh;
   background-color: $background;
   font-family: 'DM Sans';
   color: $text-light;
+}
+
+svg {
+  stroke: $text-light;
 }

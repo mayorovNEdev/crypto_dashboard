@@ -3,4 +3,45 @@
 .root {
   width: 256px;
   background-color: $background-lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.1s linear all;
+  .body {
+    .header {
+      padding-left: 33px;
+      padding-top: 45px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      svg {
+        padding-right: 10px;
+      }
+
+      .boldLogo {
+        font-weight: 700;
+      }
+    }
+  }
+  .footer {
+    padding: 0 38px;
+    display: flex;
+    flex-direction: row;
+    align-self: self-end;
+    margin-bottom: 38px;
+
+    svg {
+      stroke: $text-deactive;
+      fill: $text-deactive;
+      cursor: pointer;
+
+      &:hover {
+        stroke: $text-light;
+        fill: $text-light;
+      }
+    }
+  }
 }
