@@ -5,7 +5,7 @@ import { BoardTabSliceState } from './types';
 const initialState: BoardTabSliceState = {
   indexOfTab: 0,
   nameOfTab: BoardMenuButtons[0],
-  isFullSize: true,
+  isFullSize: false,
 };
 
 const BoardTabSlice = createSlice({

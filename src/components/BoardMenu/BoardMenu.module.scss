@@ -1,12 +1,18 @@
 @import '../../scss/variables';
 
 .root {
-  width: 256px;
+  min-width: 256px;
+  max-width: 256px;
   background-color: $background-lighter;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: 0.1s linear all;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  box-shadow: 4px 0 4px -4px #000000;
+  opacity: 0.99;
   .body {
     .header {
       padding-left: 33px;

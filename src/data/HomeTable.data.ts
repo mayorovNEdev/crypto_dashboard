@@ -1,0 +1,1 @@
+export const WRAPPER_FOR_CONTENT_HIDED = 184;

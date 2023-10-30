@@ -1,0 +1,31 @@
+@import '../variables';
+
+.positive-color-cell {
+  color: $text-positive;
+}
+
+.negative-color-cell {
+  color: $text-negative;
+}
+
+.MuiTablePagination-root {
+  color: $text-light !important;
+}
+
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-columnHeader:focus-within,
+.MuiDataGrid-columnHeader:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-selectedRowCount {
+  display: none;
+}
+
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}

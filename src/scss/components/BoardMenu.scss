@@ -8,7 +8,8 @@
 }
 
 .small-size-board-panel {
-  width: 96px;
+  min-width: 96px;
+  max-width: 96px;
 }
 
 .rotate-180 {
